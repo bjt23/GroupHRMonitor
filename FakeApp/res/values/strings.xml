@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fake Data Companion</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="heartinfos">INITIALIZATION ERROR</string>
+    <string name="cbuttons">Connect</string>
+    <string name="mapview">View Map</string>
+    <string name="listview">View List</string>
+    <string name="qbuttons">Quit</string>
+    <string name="mback">Back</string>
+    <string name="lback">Back</string>
+    <string name="ageprompt">Enter Age Below</string>
+    <string name="listit">no data</string>
+
+
+</resources>
