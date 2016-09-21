@@ -1,5 +1,6 @@
 # GroupHRMonitor
 Heartrate Monitor with Group Based Applications
-See Final Report for details
 
-CODE AND IDEAS PROPERTY OF BEN TOMASULO AND MATTHEW ROWE
+CODE AND IDEAS PROPERTY OF BEN TOMASULO AND MATTHEW ROWE UNLESS OTHERWISE STATED
+
+In this repository is the code written by Ben Tomasulo and related documentation (written by Ben Tomasulo and Matthew Rowe) for the Bluetooth Heart Rate Monitor with Group Based Applications mentioned in my resume.  Code written by Matthew Rowe (heartrate calculation done on the Raspberry Pi) has been witheld. FakeApp is the android app to run to simulate a connection to a RPi (necessary without a vest or Rowe's heartrate code), SrStepFour is the real android app when the phone can connect to a RPi via bluetooth attached to an amplifier circuit and electrodes, ServerMain.java is the class to run the server.  Note that were this to be commercialized, we are aware of an edge case syncing issue that needs to be corrected, an IP input method on the app must be added (as opposed to manually changing it in the code), and the peak detection would be scrapped in favor of the more accurate Fourier Fast Transform heart rate calculation (peak detection was used due to the limitations of the Raspi B version 1, whereas the new models should be able to handle FFT calculations in real time), however the project did get an A so these concerns were minor at the time.  For more detail on the project, please see the "FINAL REPORT MBR AND BJT.pdf."
